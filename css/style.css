@@ -1,0 +1,276 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+   font-family: 'Playfair Display', serif;
+}
+.logo{
+    width:20%;
+    padding:15px 25px;
+
+}
+ 
+@media (min-width:0px) and (max-width:600px){
+
+    .logo{
+
+        width:100%;
+     }
+
+     .menu{
+         display: none;
+     }
+
+     .right-about, .left-about2{
+        width:100% !important;
+     }
+     .left-about, .right-about2{
+         display: none;
+     }
+
+
+
+    
+         }
+
+      
+
+.hero{
+
+    background-image: url('../img/hamburger.jpg');
+    background-position: center center;
+    background-size: cover;
+    height:100vh;
+    position: relative;
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 1px 1px 8px #9b9a9a, -1px -1px 8px #9b9a9a;
+    position: fixed;
+    top:0;
+    width:100%
+}
+
+
+
+
+.logo h3{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: normal;
+    color:#333;
+    letter-spacing: 2px;
+
+}
+.menu{
+
+    width:80%;
+    padding: 15px  25px;
+    text-align: right;
+}
+
+.menu ul{
+list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+}
+
+.menu ul li a{
+    padding:15px;
+    text-transform: capitalize;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color:#000;
+    text-align: right;
+}
+
+.text{
+position:absolute;
+bottom:50px;
+left:20px
+
+}
+.text h1, .right-about h1, .title-contact h1{
+    
+    text-transform: capitalize;
+    letter-spacing:4px;
+    font-weight: normal;
+}
+
+.container{
+    width:80%;
+    margin: auto;
+}
+
+.about-tt{
+overflow: hidden;
+}
+.left-about{
+ width:40%;
+ padding:30px 0;
+ float:left;
+
+}
+.right-about2{
+    width:40%;
+    padding:30px 0;
+    float:right;}
+.left-about img, .right-about2 img {
+    width:100%;
+    border-radius: 6px;
+    /* height:100%; */
+}
+.right-about{
+    width:45%;
+    text-align: center;
+    padding:30px 0;
+    float:right;
+}
+.left-about2{
+    width:45%;
+    float:left;
+
+
+    padding:30px 0
+}
+.left-about2 h1{
+    
+    text-transform: capitalize;
+    letter-spacing:4px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.right-about h5 {
+    text-transform: capitalize;
+    letter-spacing:4px;
+    font-weight: normal;
+    font-size: 17px;
+    margin: 30px 0;
+
+}
+.left-about2 h5{
+    text-transform: capitalize;
+    letter-spacing:4px;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.left-about2 p{
+font-size: 15px;
+color:#757575;
+margin: 30px 0;
+
+}
+
+
+.right-about p{
+    text-transform: capitalize;
+    line-height: 1.9;
+    text-align: left;
+
+
+}
+.para{
+
+    margin-top: 20px;
+}
+
+hr{
+ border:0;
+    width:80%;
+    margin: 60px auto;
+border-bottom:1px solid #eee;}
+
+/* contact*/
+
+.title-contact p, .form p{
+
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin:15px 0;
+    text-transform: capitalize;
+
+}
+.bb{
+    width:80%;
+    margin:auto;
+}
+.form h4    {
+
+    color:#607d8b;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+
+
+}
+
+.form{
+    margin:35px 0;
+}
+
+input{
+
+    border: none;
+    border-bottom: 1px solid #ccc;
+    text-transform: capitalize;
+    color: #616161;
+    letter-spacing: 1px;
+    padding:15px 0;
+    margin:15px 0;
+    display: block;
+    width:100%;
+}
+
+.btn{
+
+    margin:20px 0;
+    padding:12px 10px;
+    background-color: #f1f1f1;
+    color:#000;
+    text-transform: uppercase;
+    border: none;
+    letter-spacing: 1px;
+}
+
+.btn:hover{
+
+    background-color: #ccc;
+
+}
+/* ./contact */
+
+
+/* footer */
+footer{
+
+    background-color: #eee;
+    text-align: center;
+    padding: 50px;
+}
+
+footer p{
+
+    font-size: 14px;
+    color:#000;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+footer p a{
+
+    color:#000;
+
+}
+
+
+/* ./footer */
